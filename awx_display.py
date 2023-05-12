@@ -27,4 +27,5 @@ if awx_lib_path not in sys.path:
     sys.path.insert(0, awx_lib_path)
 
 # Tower Display Callback
-from display_callback import AWXDefaultCallbackModule as CallbackModule  # noqa
+#from display_callback import AWXDefaultCallbackModule as CallbackModule  # noqa
+from ansible.plugins.callback.default import CallbackModule  # noqa
