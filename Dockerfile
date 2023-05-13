@@ -1,4 +1,4 @@
-FROM quay.io/ansible/ansible-runner:latest
+FROM quay.io/ansible/ansible-runner:stable-2.9-latest
 
 USER root
 
